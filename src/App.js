@@ -11,7 +11,7 @@ const FileUploader = () => {
 
   useEffect(() => {
     uploadQueueF();
-  }, [uploadQueue]);
+  }, [uploadQueue, uploadQueueF]);
 
   const dropInFiles = (e) => {
     e.preventDefault();
